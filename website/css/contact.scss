@@ -1,0 +1,82 @@
+#contact{
+	background-color: $color-light-pink;
+	display: table;
+	width: 100%;
+	height: 100vh;
+	#contact-content{
+		display: table-cell;
+		width: 100%;
+		vertical-align: middle;
+		text-align: center;
+		position: relative;
+		&:before{
+			content: "";
+			background: url('../img/pexels-photo-92997.jpeg');
+			background-size: cover;
+			background-attachment: fixed;
+			opacity: 0.4;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			z-index: 1;
+		}
+		#contact-box{
+			background-color: $color-dark-pink;
+			border: 4px solid $color-alt-pink;
+			z-index: 2;
+			position: relative;
+			padding: 40px 40px;
+			img, input, textarea, a, h2{
+				z-index: 2;
+				position: relative;
+			}
+			h2{
+				color: #fff;
+				font-family: font-special-valentine;
+				font-size: 120px;
+				font-weight: normal;
+			}
+			input, textarea, a{
+				width: 80%;
+				max-width: 90%;
+				font-family: $font-montserrat;
+				color: $color-dark-pink;
+				font-size: 18px;
+				padding: 15px 20px;
+				border: 0;
+				margin-bottom: 28px;
+				&::-webkit-input-placeholder {
+				    color: $color-dark-pink;
+				}
+				&:-moz-placeholder {
+				    /* FF 4-18 */
+				    color: $color-dark-pink;
+				}
+				&::-moz-placeholder {
+				    /* FF 19+ */
+				    color: $color-dark-pink;
+				}
+				&:-ms-input-placeholder {
+				    /* IE 10+ */
+				    color: $color-dark-pink;
+				}
+			}
+			textarea{
+				height: 100px;
+				max-height: 100px;
+			}
+			a{
+				background-color: $color-light-pink;
+				color: #fff;
+				text-transform: uppercase;
+				text-decoration: none;
+				padding: 15px 30px;
+				&:hover{
+					background-color: $color-alt-pink;
+				}
+			}
+		}
+	}
+}

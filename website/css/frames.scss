@@ -1,0 +1,25 @@
+.frame{
+	text-align: center;
+	padding-top: 70px;
+	color: $color-dark-pink;
+	h2{
+		font-family: font-special-valentine;
+		font-size: 108px;
+		font-weight: normal;
+	}
+	p{
+		text-align: left;
+		text-transform: uppercase;
+		font-family: $font-montserrat;
+		font-size: 12px;
+		line-height: 18px;
+		font-weight: 300;
+		margin-bottom: 70px;
+	}
+	&.frame-1{
+		display: none;
+	}
+	&.frame-3{
+		display: none;
+	}
+}

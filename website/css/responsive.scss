@@ -1,0 +1,51 @@
+
+@media screen and (max-width: 1156px){
+	#my-work{
+		height: 2500px;
+		.column{
+			.short, .long{
+				flex: 1 1;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px){
+	.wrapper{
+		max-width: 350px;
+	}
+	#lead-banner{
+		#banner-content{
+			h1{
+				font-size: 180px;
+			}
+			p{
+				font-size: 16px;
+			}
+		}
+	}
+	#nav-tabs{
+		ul{
+			li{
+				img{
+					width: 40px;
+				}
+			}
+		}
+	}
+	.frame{
+		h2{
+			font-size: 80px;
+		}
+		#bea-photo{
+			width: 200px;
+		}
+	}
+	.modal{
+		.modal-content{
+			h2{
+				font-size: 70px;
+			}
+		}
+	}
+}

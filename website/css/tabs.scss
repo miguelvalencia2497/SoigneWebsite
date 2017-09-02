@@ -1,0 +1,31 @@
+#nav-tabs{
+	ul{
+		li{
+			width: 33.3333%;
+			background-color: $color-dark-pink;
+			display: inline-block;
+			text-align: center;
+			transition: background-color 0.4s;
+			cursor: pointer;
+			&:hover{
+				background-color: $color-alt-pink;
+			}
+			img{
+				width: 50px;
+				padding-top: 18px;
+			}
+			p{
+				text-transform: uppercase;
+				color: #fff;
+				font-family: $font-montserrat;
+				font-weight: 300;
+				font-size: 20px;
+				padding-top: 13px;
+				margin-bottom: 18px;
+			}
+		}
+		.active{
+			background-color: $color-alt-pink;
+		}
+	}
+}
